@@ -1,0 +1,35 @@
+name: godItem
+version: 1.0.5
+description: This plugin is so op's or players with the permission godItem.use can god enchant there item. godItem.achievements
+authors: [Immortalisepic] 
+website: http://craft77.us
+main: us.craft77.god.Main
+commands:
+  giup:
+    description: Give the item in your hand god status.
+    permission: godItem.use
+  gidown:
+    description: Takes god from an item
+    permission: godItem.use
+  gihelp:
+    description: help page
+    permission: godItem.use
+  giach:
+    description: gives all achievements
+    permission: godItem.achievements
+  gireload:
+    description: Reloads the plugin config
+    permission: godItem.reload
+  gikill:
+    description: Kills the plugin. 
+    permission: godItem.kill
+permissions:
+  godItem.use:
+    description: Gives access to god items
+  godItem.achievements:
+    description: gives access to all achievements
+  godItem.kill:
+    description: disables the plugin
+  godItem.reload:
+    description: reloads the plugins config file
+    
