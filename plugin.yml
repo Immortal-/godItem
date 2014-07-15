@@ -1,8 +1,8 @@
 name: godItem
-version: 1.0.5
+version: 1.0.6
 description: This plugin is so op's or players with the permission godItem.use can god enchant there item. godItem.achievements
 authors: [Immortalisepic] 
-website: http://craft77.us
+website: http://dev.bukkit.org/bukkit-plugins/goditem/
 main: us.craft77.god.Main
 commands:
   giup:

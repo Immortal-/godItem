@@ -1,8 +1,8 @@
 /**
- * @author: Immortalisepic
- * @Website: http://craft77.us
+ * @author: ChrisDaCoder
+ * @Website: http://dev.bukkit.org/bukkit-plugins/goditem/
  * @ChangeLog: http://pastebin.com/ibmdxXZE
- * @Version: 1.0.5
+ * @Version: 1.0.6
  */
 package us.craft77.god;
 
@@ -13,7 +13,7 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
 public class Main extends Util {
-	/** When plugin is enabled it prints to console and loads the config.*/
+	/** When plugin is enabled it prints to console and loads the config. */
 	public void onEnable() {
 		logText("Plugin GodItem initialized");
 		try {
@@ -23,7 +23,7 @@ public class Main extends Util {
 		}
 	}
 
-	/**When the plugin closes the powerdown is sent to the console.*/
+	/** When the plugin closes the power down is sent to the console. */
 	public void onDisable() {
 		logText("Plugin godItem powering down");
 	}
